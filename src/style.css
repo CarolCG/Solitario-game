@@ -1,1 +1,23 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+  height: 100%;
+}
+
+.top {
+  text-align: left;
+  font-size: 100px;
+  padding-left: 5px;
+}
+
+.number {
+  text-align: center;
+  font-size: 100px;
+}
+
+.bottom {
+  font-size: 100px;
+  padding-right: 5px;
+  transform: rotate(180deg);
+}
