@@ -1,26 +1,24 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hello Rigo with Vanilla.js</title>
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" />
     <link rel="shortcut icon" href="./4geeks.ico" />
-  </head>
+</head>
 
-  <body>
-    <button id="button">Generate a New Card</button>
-    <div class="card m-auto" style="width: 18rem;">
-      <div class="card-body">
-        <div class="top"></div>
-        <div class="number"></div>
-        <div class="bottom"></div>
-      </div>
+<body>
+    <div class="card m-auto d-flex" style="width: 18rem;">
     </div>
-  </body>
+    <h1 class="d-grid gap-2 col-6 mx-auto">Cantidad de Cartas</h1>
+    <input class="d-grid gap-2 col-6 mx-auto" id="input" type="number" placeholder=" Ingrese una cantidad"></input>
+    <div class="d-grid gap-2 col-6 mx-auto">
+        <button class="btn btn-dark" type="button" id="button1">Barajar Cartas</button>
+        <button class="btn btn-dark" type="button" id="button2">Ordenar Cartas</button>
+    </div>
+    <div class="d-flex row" id="cards"></div>
+</body>
+
 </html>

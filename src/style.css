@@ -5,6 +5,10 @@ body {
   height: 100%;
 }
 
+.card {
+  border-radius: 50px;
+}
+
 .top {
   text-align: left;
   font-size: 100px;
